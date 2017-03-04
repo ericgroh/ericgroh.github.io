@@ -37,7 +37,7 @@
               <li><a href="#experience">experience</a></li>
               <li><a href="#contact">contact</a></li>
               <li><a href="Resume.pdf" target="_blank">resume</a></li>
-              <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">☰</a></li>
+              <li class="icon"><a href="javascript:void(0);" onclick="openResume()">☰</a></li>
             </ul>
           </div>
         </div>
@@ -61,18 +61,18 @@
     <div id="about" class="section about">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <img class="profile" src="public/images/profile1.png" alt="">
           </div>
-          <div class="info col-sm-6">
+          <div class="info col-lg-6 col-md-6 col-sm-12">
             <h2>About</h2>
             <h3>Professional Background</h3>
             <h6>Computer Science | University of CIncinnati, 2019</h6>
-            I have had the great fortune of working on some truly inspiring projects
+            <p>I have had the great fortune of working on some truly inspiring projects
             while networking with many influential and creative individuals along the way.
             I believe in the power of working together to create a whole that is greater
             than the sum of its parts. For more information about my career experience or
-            past projects, get in touch today.
+            past projects, get in touch today.</p>
           </div>
         </div>
       </div>
@@ -117,7 +117,22 @@
     <div id="contact" class="section contact">
       <div class="container">
         <div class="row">
-          <h2>CONTACT ME</h2>
+          <h2>Let's Get In Touch</h2>
+          <div class="col-sm-6 col-sm-offset-3">
+
+            <form id="form" action="mailto:grohec.1995@gmail.com" method="get" enctype="text/plain" target="_blank">
+              <div class="form-group">
+                <label>Subject:</label><br>
+                <input class="form-control" type="text" name="subject"><br><br>
+              </div>
+              <div class="form-group">
+                <label>Message: </label><br>
+                <textarea class="form-control" name="body"></textarea>
+              </div>
+              <input onclick="submitForm()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" target="_blank" type="button" value="Send">
+            </form>
+          </div>
+
         </div>
       </div>
     </div>

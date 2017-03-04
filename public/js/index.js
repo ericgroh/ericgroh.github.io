@@ -1,4 +1,4 @@
-function myFunction() {
+function openResume() {
     var x = document.getElementById("nav");
     if (x.className === "topnav") {
         x.className += " responsive";
@@ -6,6 +6,25 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+function submitForm() {
+  var form = document.getElementById("form");
+  form.submit();
+  form.reset();
+}
+
+$('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
 
 $(window).scroll(
   function() {
@@ -34,19 +53,6 @@ $(window).scroll(
     }
   }
 );
-
-$('a[href*="#"]:not([href="#"])').click(function() {
-  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-    var target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-    if (target.length) {
-      $('html, body').animate({
-        scrollTop: target.offset().top
-      }, 1000);
-      return false;
-    }
-  }
-});
 
 
 // var header = $('#header').offset().top,
