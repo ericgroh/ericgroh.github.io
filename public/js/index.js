@@ -53,17 +53,3 @@ $(window).scroll(
     }
   }
 );
-
-
-// var header = $('#header').offset().top,
-// var about = $('#about').offset().top,
-// var experience = $('#experience').offset().top,
-// var contact = $('#contact').offset().top,
-//
-//     $window = $(window);
-//
-// $window.scroll(function() {
-//     if ( $window.scrollTop() >= distance ) {
-//         // Your div has reached the top
-//     }
-// });
