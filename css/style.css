@@ -2,6 +2,15 @@
   background-color: #607d8b;
   height: 5%;
   color: white;
+  display: inline-block;
+
+}
+.nav-left {
+  float: left;
+}
+
+.topnav {
+  float: right;
 }
 
 .navbar h3 {
@@ -51,7 +60,16 @@ li a {
     text-decoration: none;
 }
 
-ul.topnav li.icon {display: none;}
+ul.topnav li.icon {
+  display: none;
+  padding-bottom: 0;
+}
+
+ul.topnav li.icon a {
+  padding-bottom: 0;
+}
+
+
 
 
 @media screen and (max-width:750px) {
@@ -66,6 +84,7 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
+    right: 0;
     top: 0;
   }
   ul.topnav.responsive li {
@@ -73,7 +92,7 @@ ul.topnav li.icon {display: none;}
     display: inline;
   }
   ul.topnav.responsive li a {
-    background-color: black;
+    background-color: #607d8b;
 
     display: block;
     text-align: left;
