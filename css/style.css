@@ -66,7 +66,6 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
-    right: 0;
     top: 0;
   }
   ul.topnav.responsive li {
