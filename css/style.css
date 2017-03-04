@@ -1,3 +1,56 @@
+.navbar {
+  background-color: #607d8b;
+  height: 5%;
+  color: white;
+}
+
+.navbar h3 {
+  margin-top: 0;
+}
+
 .section {
   height:100vh;
+  padding-top: 5%;
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffab40
+}
+
+a:active {
+    text-decoration: none;
+    color: #ffab40
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  tex
 }
