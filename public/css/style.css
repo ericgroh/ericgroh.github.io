@@ -95,6 +95,10 @@ li a {
     text-decoration: none;
 }
 
+li.current a {
+  color: #ffab40;
+}
+
 ul.topnav li.icon {
   display: none;
   padding-bottom: 0;
@@ -124,6 +128,7 @@ h6 {
 }
 
 p {
+  font-size: 16px;
   line-height: 20px;
   padding-left: 50px ;
   padding-right: 50px;
