@@ -1,6 +1,8 @@
 body {
   text-align: center;
-  background-color: #EFEFEF
+  background-image: url(../images/code1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar {
@@ -12,6 +14,10 @@ body {
 }
 .nav-left {
   float: left;
+}
+
+.navbar-default {
+  border-color: #607d8b;
 }
 
 .topnav {
@@ -30,18 +36,20 @@ body {
 
 .header {
   padding-top: 15%;
-  background-image: url(../images/code1.png);
 }
 
 .about {
+  background-color: #EFEFEF;
   padding-top: 15%;
 }
 
 .experience {
+  background-color: rgba(255, 171, 64, 0.3);  /* red with opacity */
   padding-top: 15%;
 }
 
 .contact {
+  background-color: #EFEFEF;
   padding-top: 15%;
 
 }
