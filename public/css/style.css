@@ -3,6 +3,11 @@ body {
   background-image: url(../images/code1.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .navbar {
@@ -45,15 +50,29 @@ body {
 }
 
 .experience {
-  background-color: rgba(255, 171, 64, 0.3);  /* red with opacity */
+  background-color: rgba(255, 171, 64, 0.3);
   padding-top: 15%;
 }
 
 .contact {
-  background-color: #EFEFEF;
+  background-image: url(../images/background_b&w.png);
+  background-color: rgba(255, 255, 255, 1);
+  background-attachment: fixed;
   padding-top: 15%;
 
 }
+
+.projects {
+  background-color: #EFEFEF;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.projects img {
+  border-radius: 2%;
+max-height: 400px;
+}
+
 a:focus {
   text-decoration: none;
   color: white;
@@ -128,7 +147,7 @@ h6 {
 }
 
 p {
-  text-align: left;
+  text-align: center;;
   font-size: 16px;
   line-height: 20px;
   padding-left: 50px ;
@@ -164,9 +183,7 @@ label {
   }
   ul.topnav.responsive li a {
     background-color: #607d8b;
-
     display: block;
     text-align: left;
-
   }
 }

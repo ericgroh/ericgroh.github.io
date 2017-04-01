@@ -47,9 +47,22 @@ $(window).scroll(
      $("a[href='#experience']").parent().siblings().removeClass("current");
    }
 
-    if((top >= 2937) && (top < 3916)){
+    if((top >= 2937) && (top < 3900)){
+      $("a[href='#projects']").parent().addClass("current");
+      $("a[href='#projects']").parent().siblings().removeClass("current");
+    }
+
+    if((top >= 3900) && (top < 4895)){
       $("a[href='#contact']").parent().addClass("current");
       $("a[href='#contact']").parent().siblings().removeClass("current");
     }
   }
 );
+
+$(document).ready(function(){
+  $('.your-class').slick({
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  });
+});
