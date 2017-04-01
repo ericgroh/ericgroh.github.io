@@ -25,7 +25,8 @@ body {
 }
 
 .navbar h3 {
-  margin-top: 0;
+  margin-top: 5px;
+  vertical-align: middle;
 }
 
 .section {
