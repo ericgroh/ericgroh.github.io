@@ -33,28 +33,28 @@ $(window).scroll(
     top = $(window).scrollTop();
 
     if(top < 979){
-     $("a[href='#header']").parent().addClass("current");
-     $("a[href='#header']").parent().siblings().removeClass("current");
+     $("a[href='#header']").parent().addClass("active");
+     $("a[href='#header']").parent().siblings().removeClass("active");
     }
 
    if((top >= 979) && (top < 1958)){
-     $("a[href='#about']").parent().addClass("current");
-     $("a[href='#about']").parent().siblings().removeClass("current");
+     $("a[href='#about']").parent().addClass("active");
+     $("a[href='#about']").parent().siblings().removeClass("active");
     }
 
    if((top >= 1958) && (top < 2937)){
-     $("a[href='#experience']").parent().addClass("current");
-     $("a[href='#experience']").parent().siblings().removeClass("current");
+     $("a[href='#experience']").parent().addClass("active");
+     $("a[href='#experience']").parent().siblings().removeClass("active");
    }
 
     if((top >= 2937) && (top < 3900)){
-      $("a[href='#projects']").parent().addClass("current");
-      $("a[href='#projects']").parent().siblings().removeClass("current");
+      $("a[href='#projects']").parent().addClass("active");
+      $("a[href='#projects']").parent().siblings().removeClass("active");
     }
 
     if((top >= 3900) && (top < 4895)){
-      $("a[href='#contact']").parent().addClass("current");
-      $("a[href='#contact']").parent().siblings().removeClass("current");
+      $("a[href='#contact']").parent().addClass("active");
+      $("a[href='#contact']").parent().siblings().removeClass("active");
     }
   }
 );
