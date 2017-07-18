@@ -1,201 +1,497 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-    <title>Eric Groh</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Eric Groh - Portfolio</title>
 
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Material Design -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="public/css/material.min.css" />
-    <link rel="stylesheet" href="public/css/iconmonstr-iconic-font.css">
-    <link rel="stylesheet" href="public/css/iconmonstr-iconic-font.min.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="public/slick/slick.css"/>
-    // Add the new slick-theme.css if you want the default styling
-    <link rel="stylesheet" type="text/css" href="public/slick/slick-theme.css"/>
-    <!-- My Stylesheet -->
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
-  </head>
-  <body>
+</head>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="row">
-          <div class="">
-            <div class="nav-left">
-              <h3>Eric Groh</h3>
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Eric Groh</a>
             </div>
-            <ul id="nav" class="topnav">
-              <li><a href="
-              "></a></li>
-              <li><a href="#header">Header</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="Resume.pdf" target="_blank">Resume</a></li>
-              <li class="icon"><a href="javascript:void(0);" onclick="openResume()">☰</a></li>
-            </ul>
-          </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Stack</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container-fluid -->
     </nav>
 
-
-    <!--Header Section -->
-    <div id="header" class="section header">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-          <center><h1>Hey, I'm Eric</h1></center>
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="#contact">Get In Touch</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- About Section  -->
-    <div id="about" class="section about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img class="profile" src="public/images/profile1.png" alt="">
-          </div>
-          <div class="info col-lg-6 col-md-6 col-sm-12">
-            <h2>About</h2>
-            <h3>Professional Background</h3>
-            <h6>Computer Science | University of CIncinnati, 2019</h6>
-            <p>I have had the great fortune of working on some truly inspiring projects
-            while networking with many influential and creative individuals along the way.
-            I believe in the power of working together to create a whole that is greater
-            than the sum of its parts. For more information about my career experience or
-            past projects, get in touch today.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Experience Section -->
-    <div id="experience" class="section experience">
-      <div class="container">
-        <div class="row">
-          <h2>PROFESSIONAL HISTORY</h2>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <h4>PHP DEVELOPER</h4>
-            <h6>January 2016 - August 2016</h6>
-            <p>I spent this time working as a co-op student at the IT Solutions Center.  I worked worked as a PHP Developer on a project with one other
-            team member. During this co-op I used PHP, SQL, HTML, CSS, JS, Twig, and Bootstrap.</p>
-
-          </div>
-          <div class="col-sm-4">
-            <h4>QUALITY ASSURANCE</h4>
-            <h6>August 2016 - December 2016</h6>
-            <p>I spent this time working with the IT Solutions Center for my second co-op rotation.
-             During this time I worked as a part of our Quality Assurance team.
-             I was responsible for functional and unit tests for several different products as
-              well as responding to users problems that they ran into.</p>
-
-          </div>
-          <div class="col-sm-4">
-            <h4>NODEJS DEVELOPER</h4>
-            <h6>January 2017 - Current</h6>
-            <p>During this time, I had been moved developing in node.js.  I am working on a couple
-            different projects.  Some tools and languages I have used include but aren't limited
-            to Node.js, Postgres, and Angular.</p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Projects & Achievements Section -->
-    <div id="projects" class="section projects">
-      <div class="container">
-        <div class="row">
-          <h2>Projects & Achievements</h2>
-        </div>
-        <div class="row slick">
-          <div class="col-sm-8 col-sm-offset-2 your-class">
-            <div>
-              <center><img src="public/images/choicetutoring.png" alt="Choice Tutoring" width="100%"></center>
-              <h2>Choice Tutoring</h2>
-              <h5>A college prep tutor website</h5>
-              <p>This is a website designed for a college prep tutor who is trying to advertised his
-                service to more people.  It is a simple site consisting of few different pages to
-                show off what he offers to students and how he does it.  It also offers a place to
-                read testimonials from former parents and students.
-                <!-- Feel free to check it out by clicking here. --></p>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Hey, I'm Eric.</h1>
+                <hr>
+                <p>I am a Software and Web Developer. Currently majoring in Computer Science with a minor in IT.  </p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
-            <div>
-              <center><img src="public/images/shinkitech.png" alt="Shinki Technology" width="100%"></center>
-              <h2>Shinki Technology</h2>
-              <h5>A technology startup website</h5>
-              <p>This is a website designed for an old college roommate who started his own tech
-                company during school.  It was created to show inform people about their company,
-                learn a little about its employees and the projects they are working on and planning
-                to work on in the future.
-                <!-- Feel free to check it out by clicking here. -->
-              </p>
-            </div>
-            <div>
-              <center><img src="public/images/soccer.png" alt="Soccer" height="100%"></center>
-              <h2>Soccer Captain</h2>
-              <h5>Soccer captain in high school</h5>
-              <p>In high school, I was a co-captain on my varsity soccer team during my senior year.
-                I led our soccer team on and off the field by communicating to everyone making sure
-                they all knew about everything that was going on.  This experience gave me the
-                opportunity to develop leadership skills that I still use today.</p>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
+    </header>
 
-    <!-- Contact Section -->
-    <div id="contact" class="section contact">
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">A Little Bit About Me</h2>
+                    <hr class="light">
+                    <p class="text-faded">
+                      I am in my third of five years at the University of Cincinnati where I am studying Computer Science with an IT minor.
+                      It was at school where I learned most of what I know within the field, but growing up over the years I spent plenty of time on computers.
+                      When I wasn't on a computer, you could find me outside playing sports.  In high school I played soccer and ran track and cross country.
+                      Soccer was my favorite sport and it's where I learned teamwork and leadership, as I was the captain during my Senior year.
+                      These are just a few important skills that I have developed over the years that help me with every project that I get.
+                    </p>
+                    <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button">Check out some of my work!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
       <div class="container">
-        <div class="row">
-          <h2>Let's Get In Touch</h2>
-          <div class="social col-sm-6 col-sm-offset-3">
-            <a href="https://www.linkedin.com/in/eric-groh-860177b7/" target="_blank"><img class="icon" src="public/images/iconmonstr-linkedin-4.svg" alt="Linked In"></a>
-            <a href="https://www.facebook.com/egroh5" target="_blank"><img class="icon" src="public/images/iconmonstr-facebook-4.svg" alt="Linked In"></a>
-            <a href="https://github.com/ericgroh" target="_blank"><img class="icon" src="public/images/iconmonstr-github-1.svg" alt="Linked In"></a>
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="email col-sm-6 col-sm-offset-3">
-            <h4>Email</h4>
-            <form id="form" action="mailto:grohec.1995@gmail.com" method="get" enctype="text/plain" target="_blank">
-              <div class="form-group">
-                <label>Subject:</label><br>
-                <input class="form-control" type="text" name="subject"><br><br>
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Portfolio</h2>
+                  <hr class="primary">
               </div>
-              <div class="form-group">
-                <label>Message: </label><br>
-                <textarea class="form-control" name="body"></textarea>
-              </div>
-              <input onclick="submitForm()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" target="_top" type="button" value="Send">
-            </form>
           </div>
-
-        </div>
       </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-    <script type="text/javascript" src="public/slick/slick.min.js"></script>
-		<script src="public/js/index.js"></script>
-  </body>
+      <div class="container-fluid">
+          <div class="row no-gutter popup-gallery">
+              <div class="col-lg-4 col-sm-6">
+                  <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                      <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded">
+                                  Website
+                              </div>
+                              <div class="project-name">
+                                  Choice-Tutoring
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                  <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                      <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded">
+                                  Website
+                              </div>
+                              <div class="project-name">
+                                  Shinki-Technology
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                  <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                      <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded">
+                                  Node Module
+                              </div>
+                              <div class="project-name">
+                                  Github-Lang-Getter
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="no-padding" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">My Technology Stack</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/node.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Node JS
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/html.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  HTML
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/redis.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Redis
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/css.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  CSS
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/mysql.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  MySQL
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/bootstrap.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  bootstrap
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/js.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Javascript
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/mongo.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Mongo DB
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/github.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Github
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/git.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Git
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/angular.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Angular
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/vscode.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  VS Code
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/jquery.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  JQuery
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/python.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Python
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/npm.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  NPM
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/postgres.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Postgres
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/c++.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  C++
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/json.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  JSON
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/express.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Express JS
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/scrum-agile.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Scrum / Agile
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/symfony.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Symfony Framework
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/selenium.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  Selenium Web-Driver
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-md-4 text-center">
+                  <a class="portfolio-box">
+                      <img src="img/portfolio/stack/php.png" class="stack img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                  PHP
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <aside class="bg-dark" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>216-849-5065</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:ericgroh9@gmail.com">ericgroh9@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
 </html>
