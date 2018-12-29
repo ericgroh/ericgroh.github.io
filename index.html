@@ -1,223 +1,162 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="theme.css" type="text/css">
-  <title>My Portfolio</title>
-</head>
-
-<body class="">
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#introduction">Introduction</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#stack">Stack</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Resume.pdf" target="_blank">Resume
-              <br> </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="pt-5 text-light bg-primary filter-gradient h-100 py-5" id="introduction">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="display-1 text-center py-5">Eric Groh
-            <br> </h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <p class="lead text-center p-3 border border-light">I am in my fifth and final year at the University of Cincinnati where I am studying Computer Science with an IT minor. It was at school where I learned most of what I know within the field, but growing up over the years I spent plenty of time
-            on computers. When I was not on a computer, you could find me outside playing sports. In high school I played soccer and ran track and cross country. Soccer was my favorite sport and it's where I learned teamwork and leadership, as I was the
-            captain during my Senior year. These are just a few important skills that I have developed over the years that help me with every project that I get. </p>
-          <a href="#projects" class="btn btn-outline-primary text-light border border-light">Learn More
-            <br> </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="pt-5 text-dark h-100" id="projects">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="text-left">Projects
-            <br> </h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="lead text-right">Here is some of my work.
-            <br> </p>
-        </div>
-      </div>
-      <div class="row p-3 border border-primary">
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card">
-                <img class="card-img-top" src="img/portfolio/thumbnails/1.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Choice Tutoring
-                    <br> </h5>
-                  <p class="card-text">This is a website designed for a college prep tutor.</p>
-                  <div class="col-md-12 text-center">
-                    <a class="btn btn-outline-primary" href="https://www.billbrownchoicetutoring.com" target="_blank">Visit</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <img class="card-img-top" src="img/portfolio/thumbnails/3.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Github-Lang-Getter</h5>
-                  <p class="card-text">Node module for getting number of bytes of each programming languages from github accounts.</p>
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <a href="https://github.com/andrewbrooke/github-lang-getter" class="btn btn-outline-primary" target="_blank">Visit</a>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <header>
+        <nav>
+            <a href="#intro">Introduction</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <body>
+        <section id="intro" class="introduction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h1>Eric Groh</h1>
+                        <p>I am a software developer. Learn about me and the work I've done in the software
+                            field. Questions, comments, or ideas?  Let's get in touch.</p>
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5 text-dark h-100 filter-color" id="stack">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="text-right">Stack
-            <br> </h1>
-          <p class="lead">Technologies that I have used in my projects.
-            <br> </p>
-        </div>
-      </div>
-      <div class="row border border-secondary p-3">
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/node.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/angular.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/bootstrap.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/c++.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/css.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/express.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/git.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/html.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/jquery.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/js.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/mongo.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/mysql.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/php.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/postgres.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/python.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/redis.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/npm.png" alt="Card image" height="150rem"> </div>
-        </div>
-        <div class="col-md-2 p-2">
-          <div class="card">
-            <img class="card-img" src="img/portfolio/stack/github.png" alt="Card image" height="150rem"> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="text-white bg-secondary h-100" id="contact">
-    <div class="container">
-      <div class="row p-5"></div>
-      <div class="row">
-        <div class="col-md-12 p-3">
-          <h1 class="text-center">Contact Me</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8
-   offset-md-2 border border-light p-3">
-          <div class="row">
-            <div class="col-md-6 text-center">
-              <p class="lead">Email: grohec.1995@gmail.com </p>
+        </section>
+        <section id="about" class="dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>A few things about me...</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-light-img">
+                            <img class="card-img" src="img/uc.jpg" alt="">
+                            <h6>Computer Science</h6>
+                            I am a 5th year senior at the University of Cincinnati Majoring in Computer Science with a Minor in Information Technology.
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-light">
+                            I like playing and watching sports.  Browns, Cavaliers, and Indians fan.
+                        </div>
+                        <div class="card-light-img">
+                            <img class="card-img" src="img/soccer_1.jpg" alt="">
+                            <h6>Soccer Captain</h6>
+                            I have played soccer all of my life.
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-accent-img">
+                            <img class="card-img" src="img/camping.png" alt="">
+                            <h4>Outdoors</h4>
+                            I enjoy being outdoors whether it be camping in the woods, snowboarding in the mountains, or relaxing at the lake or ocean.
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 text-center">
-              <p class="lead">
-                <b>Phone</b>: (216) 849-5065</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+        </section>
+        <section id="experience" class="light">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>My Experience...</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <h4>IT Solutions Center</h4>
+                        <p>I worked for IT Solutions Center as a full-time Co-op student and part-time for a little over 2 years.  During this time, I developed
+                            skills for Node.js Express.js, and Angular.js as well as PHP and the Symphony Framework.  I worked with MongoDB, PostgreSQL, and MySQL databases.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <h4>Lampros Labs</h4>
+                        <p>I Started working at Lampros Labs in January of 2018 as a Co-op student from the University of Cincinnati.  During this time I started
+                            on smaller Wordpress sites that had quite a bit of custom work to do in the backend and got involved on many other web applications.
+                            During this time, I further developed my skills with Angular.js, Node.js, Express.js and learned new skills such as React.js, Django, and Laravel.</p>
 
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <h4>Syntonic</h4>
+                        <p>Worked with Syntonic for several months on a web application using React.js and Redux with a PostgreSQL database.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="light">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Some of my projects...</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-clear-img">
+                            <img class="card-img-orange" src="img/markdown-notes.png" alt="">
+                            <h6>Markdown Notes</h6>
+                            <p>Markdown Notes is a web application that allows users to write and preview markdown in real time.  It allows logged in users to load old notes
+                                and save new ones.</p>
+                        </div>
+                        <div class="card-accent-2">
+                            <h4>github-lang-getter</h4>
+                            <p>This is a Node.js module to retrieve a Github user's git contributions by programming language.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-dark">
+                            <h4>express-app-template</h4>
+                            <p>Express.js app starter template with a MongoDB.</p>
+                        </div>
+                        <div class="card-clear-img">
+                            <img class="card-img-accent-2" src="img/splashfire.png" alt="">
+                            <h6>SplashFire Media</h6>
+                            <p>SplashFire Media is a media startup company that I'm apart of that provides all kinds of media services for those who need them.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-clear-img">
+                            <img class="card-img-accent-1" src="img/bill-brown-desktop.png" alt="">
+                            <h6>Bill Brown Choice Tutoring</h6>
+                            <p>This is a website I designed using Wix for a tutor who is trying to grow his own business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h1>Let's get in touch...</h1>
+                        <a href="mailto:grohec.1995@gmail.com?" class="btn btn-primary">Email</a>
+                        <a href="tel:2168495065" class="btn btn-secondary">Call</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <div class="float-left">
+            <h5 class="footer">&copy; 2018</h5>
+        </div>
+        <div class="float-right">
+            <a href="https://github.com/ericgroh" target="_blank"><img class="media-icon" src="img/social-media/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/eric-groh-860177b7/" target="_blank"><img class="media-icon" src="img/social-media/linkedin.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </html>

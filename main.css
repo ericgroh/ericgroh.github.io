@@ -1,0 +1,295 @@
+html, body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+    font-size: 14px;
+    background-color: #F5F0EC;
+    margin: 0;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, a {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+h2 {
+    margin-bottom: 30px !important;
+}
+
+h4 {
+    font-size: 1.33em;
+    font-weight: 700;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    font-size: .9em !important;
+    color: #DE4C33 !important;
+}
+
+a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #F5F0EC;
+}
+
+a:hover, a:active {
+    color: #DE4C33;
+    text-decoration: none;
+}
+
+a.btn, a.btn:active, a.btn:visited {
+    font-size: 14px;
+    line-height: 1.3333333;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 18px 36px;
+    margin: 10px 1px;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+a.btn-primary, a.btn-primary:active, a.btn-primary:visited {
+    background-color: #DE4C33;
+    color: #F5F0EC;
+}
+
+a.btn-secondary, a.btn-secondary:active, a.btn-secondary:visited {
+    background-color: #A59F9D;
+    color: #F5F0EC;
+}
+
+nav {
+    background-color: #222128;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: #F5F0EC;
+    padding: .5em 3em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 3em;
+    text-align: center;
+}
+
+footer {
+    background-color: #222128;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: #F5F0EC;
+    padding: 0 1em;
+    width: 100%;
+    z-index: 1;
+    height: 4em;
+}
+
+footer a {
+    padding: 0;
+}
+
+footer .media-icon {
+    height: 4em;
+    padding: 0;
+}
+
+h5.footer {
+    color: #DE4C33;
+    font-size: 14px !important;
+    padding: 1.4em 0;
+    margin-bottom: 0;
+}
+
+section {
+    min-height: 400px;
+}
+
+section.dark {
+    background-color: #222128;
+    color: #F5F0EC;
+}
+
+section.light {
+    background-color: #F5F0EC;
+    color: #222128;
+}
+
+section.introduction {
+    padding-top: 5em;
+    background-image: url('img/laptop.jpg');
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.contact {
+    padding-top: 5em;
+    background-image: url('img/contact.png');
+    height: 100%;
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.introduction h1 {
+    color: #DE4C33;
+    font-size: 5em;
+}
+
+.card-dark {
+    background-color: #222128;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #F5F0EC;
+    padding: 15px 30px;
+    width: 100%;
+    margin: 0 0 45px 0;
+
+}
+
+.card-light {
+    background-color: #F5F0EC;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #222128;
+    padding: 15px 30px;
+    width: 100%;
+    margin: 0 0 45px 0;
+}
+
+.card-clear {
+    background-color: #F5F0EC;
+    border-radius: 6px;
+    color: #222128;
+    padding: 15px 0px;
+    width: 100%;
+    margin: 0 0 45px 0;
+}
+
+.card-accent-1 {
+    background-color: #948A76;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #F5F0EC;
+    padding: 15px 30px;
+    width: 100%;
+    margin: 0 0 45px 0;
+}
+
+.card-accent-2 {
+    background-color: #A59F9D;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #F5F0EC;
+    padding: 15px 30px;
+    width: 100%;
+    margin: 0 0 45px 0;
+}
+
+.card-light-img {
+    background-color: #F5F0EC;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    color: #222128;
+    padding: 15px 30px;
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+.card-clear-img {
+    background-color: #F5F0EC;
+    border-radius: 6px;
+    color: #222128;
+    padding: 15px 0px;
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+
+.card-accent-img {
+    background-color: #948A76;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    color: #F5F0EC;
+    padding: 15px 30px;
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+/* .card-accent > h6, .card-accent-img > h6 {
+    color: #F5F0EC !important;
+    font-weight: 700 !important;
+    font-family: 'Roboto Slab', serif !important;
+} */
+
+.card-img {
+    border-radius: 6px !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    margin-top: -45px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.card-img-orange {
+    background-color: #DE4C33;
+    border-radius: 6px !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    margin-top: -45px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.card-img-accent-1 {
+    background-color: #A59F9D;
+    border-radius: 6px !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    margin-top: -45px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.card-img-accent-2 {
+    background-color: #948A76;
+    border-radius: 6px !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    margin-top: -45px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.container {
+    padding: 75px 30px 75px 30px;
+}
+
+img.profile {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    max-height: 300px;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 800px) {
+    section.introduction {
+        background: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    nav {
+        height: 5em;
+    }
+}
